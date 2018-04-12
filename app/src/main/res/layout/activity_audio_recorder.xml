@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/btn_start_recorder"
+        android:text="开始系统录音"
+        android:layout_width="80dp"
+        android:layout_height="100dp" />
+    <Button
+        android:id="@+id/btn_start_play"
+        android:layout_marginLeft="100dp"
+        android:text="播放录音"
+        android:layout_width="80dp"
+        android:layout_height="100dp" />
+    <Button
+        android:id="@+id/btn_recoder"
+        android:layout_marginLeft="200dp"
+        android:text="开始录音"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        />
+
+    <Button
+        android:id="@+id/btn_stop_recorder"
+        android:text="停止录音"
+        android:layout_marginTop="150dp"
+        android:layout_width="80dp"
+        android:layout_height="100dp" />
+    <Button
+        android:id="@+id/btn_pause_recorder"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:text="暂停录音"
+        android:layout_width="80dp"
+        android:layout_height="100dp" />
+    <Button
+        android:id="@+id/btn_start_audio_record"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="150dp"
+        android:text="开始使用AudioRecord录制"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        />
+
+</RelativeLayout>

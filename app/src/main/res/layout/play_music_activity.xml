@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+    android:id="@+id/btn_start"
+    android:text="播放本地音频"
+    android:layout_width="80dp"
+    android:layout_height="100dp" />
+    <Button
+        android:id="@+id/btn_suspend"
+        android:layout_marginLeft="100dp"
+        android:text="暂停"
+        android:layout_width="80dp"
+        android:layout_height="100dp" />
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_marginLeft="200dp"
+        android:text="结束"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        />
+
+    <Button
+        android:id="@+id/btn_network_start"
+        android:text="播放网络音频"
+        android:layout_marginTop="150dp"
+        android:layout_width="80dp"
+        android:layout_height="100dp" />
+    <Button
+        android:id="@+id/btn_network_suspend"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:text="暂停"
+        android:layout_width="80dp"
+        android:layout_height="100dp" />
+    <Button
+        android:id="@+id/btn_network_stop"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="150dp"
+        android:text="结束"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        />
+
+</RelativeLayout>
